@@ -102,20 +102,20 @@
                                                     United
                                                     States:
                                                     <br/>
-                                                    <code>result = so.partner_id.country_id.code == 'US'</code>
+                                                    <code>result = SO.partner_id.country_id.code == 'US'</code>
                                                     <br/>
                                                     ("code" is the ISO country code in two chars)
                                                 </li>
                                                 <li>
                                                     Additional approver only for particular vendor:
                                                     <br/>
-                                                    <code>result = so.partner_id.name == 'Gemini Furniture'</code>
+                                                    <code>result = SO.partner_id.name == 'Gemini Furniture'</code>
                                                 </li>
                                                 <li>
                                                     Add additional approver only for particular period (using Order
                                                     Date):
                                                     <br/>
-                                                    <code>result = '2021-08-09' &lt;= str(so.date_order) &lt;=
+                                                    <code>result = '2021-08-09' &lt;= str(SO.date_order) &lt;=
                                                         '2021-08-15'
                                                     </code>
                                                 </li>
