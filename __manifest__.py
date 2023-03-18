@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'PO/SO Dynamic Approval Process',
-    'version': '1.0.0',
+    'version': '16.0',
     'summary': """
     Dynamic, Customizable and flexible approval cycle for purchase orders
     , Purchase dynamic approval 
