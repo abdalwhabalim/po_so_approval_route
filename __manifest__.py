@@ -65,7 +65,7 @@ for purchase orders/ Sale order based on team settings.
     'qweb': [],
     'images': [
 
-        'static/description/icon.png',
+        'static/description/icon.gif',
     ],
     'installable': True,
     'auto_install': False,
