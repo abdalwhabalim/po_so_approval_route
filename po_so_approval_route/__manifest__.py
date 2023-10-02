@@ -64,7 +64,7 @@ for purchase orders/ Sale order based on team settings.
     'depends': ['purchase','sale','sales_team','sale_management'],
     'qweb': [],
     'images': [
-        'static/description/logo.gif',
+        'static/description/icon.gif',
     ],
     'installable': True,
     'auto_install': False,
